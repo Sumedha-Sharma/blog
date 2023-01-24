@@ -1,0 +1,19 @@
+install express cors nodemon body-parser mongoose crypto-js uuid
+package .json alter scrips to start : nodemon index.js
+
+
+Structure:
+user/auth : id, name
+blog: foreign key : user_id , blog title, description , blog id
+comment : fr_key1: user_id, fr_key 2: blog_id , comment title , comment description 
+
+
+
+create folder for authentication, blog and comment
+three of them should have a model controller and a route
+STEP 1: require stuff
+STEP 2: create an express server
+STEP 3: app listener with callback function
+STEP 4 : apply middleware
+STEP 5: DB connection
+STEP 6: make schema 
